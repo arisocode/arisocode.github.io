@@ -10,6 +10,21 @@ function Projects() {
         title: 'TraderBosque', 
         description: 'Stock trading platform applying software architecture & engineering principles.', 
         url: 'https://github.com/arisocode/TraderBosque'
+      },
+      {
+        title: 'Snakes & Ladders Game',
+        description: 'Java GUI project developed during first semester; learning Java fundamentals and GUI development.',
+        url: '#'
+      },
+      {
+        title: 'ATC Organizer',
+        description: 'Java GUI application to organize ATCs and their categories, focusing on table management and object-oriented programming.',
+        url: '#'
+      },
+      {
+        title: 'Anitta Agenda',
+        description: 'Java desktop application for personal organization, practicing persistence, file handling, and GUI.',
+        url: '#'
       }
     ];
 

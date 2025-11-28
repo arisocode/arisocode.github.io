@@ -2,7 +2,7 @@ function Certifications() {
   try {
     const certifications = [
       { title: 'Java Course - Java University', issuer: 'Udemy', date: '2023' },
-      { title: 'Git and Github Course', issuer: 'Platzi', date: '2025' }
+      { title: 'Git & Github Course', issuer: 'Platzi', date: '2025' }
     ];
 
     React.useEffect(() => {

@@ -13,7 +13,7 @@ function Education() {
               Systems Engineering Student (Final Semesters)
             </h3>
             <p className="text-cyan-400 mb-2">El Bosque University – Bogotá, Colombia</p>
-            <p className="text-gray-400">2025 – Present</p>
+            <p className="text-gray-400">2022 – Present</p>
           </div>
         </div>
       </section>
