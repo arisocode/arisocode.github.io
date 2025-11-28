@@ -7,7 +7,7 @@ function Skills() {
       { name: 'C#', level: 75 },
       { name: 'APIs REST', level: 85 },
       { name: 'SQL', level: 85 },
-      { name: 'MongoDB', level: 65 },
+      { name: 'MongoDB', level: 70 },
       { name: 'Python', level: 70 },
       { name: 'JavaScript', level: 80 },
       { name: 'React', level: 80 },
