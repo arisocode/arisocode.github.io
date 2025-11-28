@@ -4,7 +4,7 @@ function Skills() {
     
     const technicalSkills = [
       { name: 'Java', level: 90 },
-      { name: 'C++', level: 75 },
+      { name: 'C#', level: 75 },
       { name: 'APIs REST', level: 85 },
       { name: 'SQL', level: 85 },
       { name: 'MongoDB', level: 65 },

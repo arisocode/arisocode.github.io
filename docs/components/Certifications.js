@@ -1,12 +1,8 @@
 function Certifications() {
   try {
     const certifications = [
-      { title: 'Applied Software Engineering Fundamentals', issuer: 'IBM Coursera', date: '2024' },
-      { title: 'Software Engineering Essentials', issuer: 'IBM Coursera', date: '2024' },
-      { title: 'Introduction to Data Science', issuer: 'IBM', date: '2024' },
-      { title: 'Microsoft IT Support Specialist', issuer: 'Microsoft', date: '2024' },
-      { title: 'Snowflake Data Engineering', issuer: 'Snowflake', date: '2024' },
-      { title: 'Python for Data Science', issuer: 'IBM', date: '2024' }
+      { title: 'Java Course - Java University', issuer: 'Udemy', date: '2023' },
+      { title: 'Git and Github Course', issuer: 'Platzi', date: '2025' }
     ];
 
     React.useEffect(() => {
