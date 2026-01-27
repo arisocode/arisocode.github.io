@@ -1,8 +1,8 @@
 function Certifications() {
   try {
     const certifications = [
-      { title: 'Java Course - Java University', issuer: 'Udemy', date: '2023' },
-      { title: 'Git & Github Course', issuer: 'Platzi', date: '2025' }
+      { title: 'Java Course - Java University', issuer: 'Udemy', date: '2023', icon: 'coffee'},
+      { title: 'Git & Github Course', issuer: 'Platzi', date: '2025', icon: 'git-branch'}
     ];
 
     React.useEffect(() => {
@@ -18,7 +18,7 @@ function Certifications() {
             {certifications.map((cert, index) => (
               <div key={index} className="glassmorphism content-box lofi-card text-center">
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full glassmorphism flex items-center justify-center lofi-glow">
-                  <i data-lucide="award" className="w-8 h-8 text-pink-300"></i>
+                  <i data-lucide={cert.icon} className="w-8 h-8 text-pink-300"></i>
                 </div>
                 
                 <h3 className="text-lg font-semibold mb-4 text-white leading-relaxed">

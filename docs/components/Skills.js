@@ -3,20 +3,26 @@ function Skills() {
     const [isVisible, setIsVisible] = React.useState(false);
     
     const technicalSkills = [
-      { name: 'Java', level: 90 },
-      { name: 'C#', level: 75 },
-      { name: 'APIs REST', level: 85 },
-      { name: 'SQL', level: 85 },
-      { name: 'MongoDB', level: 70 },
-      { name: 'Python', level: 70 },
-      { name: 'JavaScript', level: 80 },
-      { name: 'React', level: 80 },
+      { name: 'Java', level: 87 },
+      { name: 'Spring Boot / Spring Framework', level: 85 },
+      { name: 'RESTful APIs', level: 84 },
+      { name: 'SQL & Relational Databases', level: 83 },
+      { name: 'C# / .NET', level: 75 },
+      { name: 'JavaScript / TypeScript', level: 74 },
+      { name: 'React.js', level: 72 },
+      { name: 'MongoDB (NoSQL)', level: 68 },
+      { name: 'Python', level: 65 },
     ];
     
     const tools = [
-      'Git & GitHub', 'VS Code', 'Azure Cloud', 
-      'Postman', 'Docker', 'AWS', 'IntelliJ IDEA',
-      'PyCharm'
+      'Git & GitHub',
+      'Postman',
+      'Docker (Basic)',
+      'AWS (Basic)',
+      'Azure',
+      'Maven',
+      'IntelliJ IDEA',
+      'VS Code'
     ];
 
     React.useEffect(() => {

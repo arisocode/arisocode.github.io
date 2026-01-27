@@ -23,21 +23,18 @@ function About() {
               <h3 className="text-2xl font-semibold mb-6 text-pink-300">My Journey</h3>
               
               <p className="text-gray-300 text-spacing">
-                Backend Developer passionate about building robust, scalable, and efficient systems. 
-                I enjoy transforming ideas into practical solutions through clean code, 
-                thoughtful architecture, and modern engineering practices.
+                Backend Developer with professional experience building scalable web applications and robust backend systems, 
+                specializing in Java and Spring Boot with clean architecture and RESTful APIs.
               </p>
               
               <p className="text-gray-300 text-spacing">
-                I have experience with Java, C#, .NET, Python, JavaScript, SQL databases, 
-                cloud technologies, and DevOps tools. I enjoy working on backend logic, 
-                database design, APIs, and system architecture.
+                I also work with multiple technologies including C#/.NET, Python, JavaScript, and both SQL and NoSQL databases, 
+                adapting to different project needs and environments.
               </p>
               
               <p className="text-gray-300 text-spacing">
-                I am constantly learning and currently exploring software architecture, 
-                microservices, cloud-native development, artificial intelligence tools, 
-                and blockchain fundamentals.
+                I have experience collaborating in Agile teams, optimizing database performance, and applying modern backend 
+                development best practices while continuously improving my technical skills.
               </p>
               
               <div className="mt-8 space-y-4">

@@ -3,28 +3,27 @@ function Projects() {
     const projects = [
       { 
         title: 'Poblado Nómina', 
-        description: 'Web application for HR payroll management with PL/SQL business logic.', 
-        url: 'https://github.com/arisocode/PayrollProyect'
+        description: 'Integrated payroll system managing employees, contracts, settlements, and related third parties. Entire database logic implemented in PL/SQL for secure, automated, and reliable operations.', 
+        url: 'https://github.com/arisocode/PayrollProyect',
+        image: '/images/poblado.png'
       },
       { 
-        title: 'TraderBosque', 
-        description: 'Stock trading platform applying software architecture & engineering principles.', 
-        url: 'https://github.com/arisocode/TraderBosque'
+        title: 'ZonaFitGYM', 
+        description: 'Full-stack Java project using Spring Boot, JSF, and PrimeFaces. Manage gym clients with CRUD operations through console, desktop GUI, and web.', 
+        url: 'https://github.com/arisocode/ZonaFitGymCRUD',
+        image: '/images/zonafit.png'
       },
       {
-        title: 'Snakes & Ladders Game',
-        description: 'Java GUI project developed during first semester; learning Java fundamentals and GUI development.',
-        url: '#'
+        title: 'DataBaseATC',
+        description: 'Desktop Java application with Swing GUI for managing and categorizing pharmacological data. Import, visualize, and export large lists of drugs by ATC code and therapeutic groups.',
+        url: 'https://github.com/arisocode/DataBaseATC',
+        image: '/images/atcdb.png'
       },
       {
-        title: 'ATC Organizer',
-        description: 'Java GUI application to organize ATCs and their categories, focusing on table management and object-oriented programming.',
-        url: '#'
-      },
-      {
-        title: 'Anitta Agenda',
-        description: 'Java desktop application for personal organization, practicing persistence, file handling, and GUI.',
-        url: '#'
+        title: 'EnergyDistributionAPI',
+        description: 'Backend system built in .NET for processing and analyzing electric power distribution data. Focused on scalable database design, efficient historical data loading, and analytical API exposure.',
+        url: 'https://github.com/arisocode/EnergyDistributionAPI',
+        image: '/images/apisapp.png'
       }
     ];
 
@@ -33,29 +32,31 @@ function Projects() {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl font-bold text-center mb-16 lofi-text">Projects</h2>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-12">
             {projects.map((project, index) => (
-              <div key={index} className="glassmorphism content-box lofi-card text-center">
-                <div className="w-16 h-16 mx-auto mb-6 rounded-full glassmorphism flex items-center justify-center lofi-glow">
-                  <i data-lucide="code" className="w-8 h-8 text-pink-300"></i>
-                </div>
-                
-                <h3 className="text-xl font-semibold mb-4 text-white">
-                  {project.title}
-                </h3>
-                
-                <p className="text-gray-300 mb-6 text-spacing">
-                  {project.description}
-                </p>
+              <div 
+                key={index} 
+                className="glassmorphism rounded-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300"
+              >
+                <img 
+                  src={project.image} 
+                  alt={project.title} 
+                  className="w-full h-64 object-cover"
+                />
 
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 bg-pink-500/80 hover:bg-pink-400 text-white rounded-lg transition-all duration-300"
-                >
-                  View Project →
-                </a>
+                <div className="p-6 text-center">
+                  <h3 className="text-2xl font-semibold mb-4 lofi-text">{project.title}</h3>
+                  <p className="text-gray-300 mb-6 text-sm md:text-base">{project.description}</p>
+
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="lofi-button"
+                  >
+                    View Project →
+                  </a>
+                </div>
               </div>
             ))}
           </div>
