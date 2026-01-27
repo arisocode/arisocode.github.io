@@ -41,7 +41,7 @@ function Projects() {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-top"
                 />
 
                 <div className="p-6 text-center">
